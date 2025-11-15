@@ -4,7 +4,7 @@ import io
 from PIL import Image
 from flask import Flask, request, jsonify
 
-API_KEY = "YOUR_2CAPTCHA_API_KEY"   # ← حط مفتاحك هنا
+API_KEY = "3fb1bd23d20f532f4f2e8b6e043af1d2"   # ← حط مفتاحك هنا
 
 app = Flask(__name__)
 session = requests.Session()
@@ -107,3 +107,4 @@ def home():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
